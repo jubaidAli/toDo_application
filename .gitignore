@@ -22,7 +22,7 @@ logs/
 *.log
 
 # Frontend build artifacts
-frontend/build/
+# frontend/build/
 
 # Backend
 backend/node_modules/
