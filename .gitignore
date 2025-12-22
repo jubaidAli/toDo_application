@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Env files
+.env
+
+# Editor folders
+.vscode/
+.idea/
+
+# Builds
+/build
+/dist
+
+# Logs
+logs/
+*.log
+
+# Frontend build artifacts
+frontend/build/
+
+# Backend
+backend/node_modules/
