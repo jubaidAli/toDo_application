@@ -26,3 +26,13 @@ logs/
 
 # Backend
 backend/node_modules/
+backend/dist/
+backend/build/
+backend/.env
+
+
+# Ftontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env

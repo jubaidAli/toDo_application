@@ -6,7 +6,6 @@ import api from '../../lib/axios.js';
 import toast from 'react-hot-toast';
 import NoteCard from '../components/NoteCard.jsx';
 import NotesNotFound from '../components/NotesNotFound.jsx';
-import NoteDetailPage from './NoteDetailPage.jsx';
 
 // import NotesNotFound from '../components/NotesNotFound.jsx';
 
