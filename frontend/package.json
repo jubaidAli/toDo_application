@@ -6,15 +6,25 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "prepare": "husky install",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
     "preview": "vite preview"
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,md}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "dependencies": {
     "-": "^0.0.1",
+    "axios": "^1.13.2",
     "D": "^1.0.0",
     "daisyui": "^4.12.24",
+    "lucide-react": "^0.562.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-hot-toast": "^2.6.0",
@@ -34,6 +44,8 @@
     "globals": "^16.5.0",
     "postcss": "^8.5.6",
     "prettier": "^2.8.8",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.0",
     "tailwindcss": "^3.4.19",
     "vite": "^7.2.4"
   }
